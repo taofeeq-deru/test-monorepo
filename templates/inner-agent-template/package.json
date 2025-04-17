@@ -11,10 +11,9 @@
   "author": "",
   "license": "MIT",
   "dependencies": {
-    "@mastra/core": "link:%%MASTRA_DIR%%/packages/core",
-    "@inner/inner-tools": "workspace:*"
+    "@mastra/core": "0.8.4-alpha.2",
   },
   "devDependencies": {
-    "mastra": "link:%%MASTRA_DIR%%/packages/cli"
+    "mastra": "0.4.10-alpha.3"
   }
 }
