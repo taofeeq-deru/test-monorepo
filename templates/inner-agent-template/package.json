@@ -1,0 +1,20 @@
+{
+  "name": "@inner/app",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "build": "mastra build"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "@mastra/core": "link:%%MASTRA_DIR%%/packages/core",
+    "@inner/inner-tools": "workspace:*"
+  },
+  "devDependencies": {
+    "mastra": "link:%%MASTRA_DIR%%/packages/cli"
+  }
+}
